@@ -83,11 +83,11 @@ resource "kubernetes_deployment_v1" "blog" {
 
           env {
             name  = "url"
-            value = "http://drones-shuttles.io"
+            value = "http://drones-shuttles.org"
           }
           env {
             name  = "mail__from"
-            value = "no-reply@drones-shuttles.io"
+            value = "no-reply@mg.drones-shuttles.org"
           }
           env {
             name  = "mail__transport"

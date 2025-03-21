@@ -107,10 +107,10 @@ resource "azurerm_key_vault_certificate" "drones_shuttles" {
       ]
 
       subject_alternative_names {
-        dns_names = ["*.drones-shuttles.io"]
+        dns_names = ["*.drones-shuttles.org"]
       }
 
-      subject            = "CN=drones-shuttles.io"
+      subject            = "CN=drones-shuttles.org"
       validity_in_months = 12
     }
   }
